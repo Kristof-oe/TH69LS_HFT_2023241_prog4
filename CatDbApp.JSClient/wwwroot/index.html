@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Cat UI</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>
+        Cats catalog
+    </h1>
+
+    <div id="formdiv">
+        <label>Cat Name</label>
+        <input type="text" id="cat_Name" />
+        <button type="button" onclick="create()">Add Cat</button>
+    </div>
+
+    <div id="updateformdiv">
+        <label>Cat Name</label>
+        <input type="text" id="updated_name" />
+        <button type="button" onclick="update()">Update Cat</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+
+                <th>Cat Name</th>
+
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="resultarea">
+        </tbody>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+    <script src="script.js"></script>
+</body>
+
+<body>
+    <h1>
+        Cat Sitter catalog
+    </h1>
+
+    <div id="formdiv2">
+        <label>Cat Sitter Name</label>
+        <input type="text" id="cat_Sitter" />
+        <label>Cat Sitter Age(20-45)</label>
+        <input type="text" id="cat_Sitter_Age" />
+        <label>Salary(150000-450000)</label>
+        <input type="text" id="cat_Sitter_Salary" />
+        <button type="button" onclick="create2()">Add Sitter</button>
+    </div>
+
+    <div id="updateformdiv2">
+        <label>Cat Sitter Name</label>
+        <input type="text" id="updated_sitter" />
+        <label>Cat Sitter Age(20-45)</label>
+        <input type="text" id="cat_Sitter_Ageu" />
+        <label>Salary(150000-450000)</label>
+        <input type="text" id="cat_Sitter_Salaryu" />
+        <button type="button" onclick="update2()">Update Sitter</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+
+                <th>Cat Sitter Name</th>
+
+                <th>Sitter Age</th>
+
+                <th>Salary</th>
+
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="resultarea2">
+        </tbody>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+    <script src="script.js"></script>
+</body>
+<body>
+    <h1>
+        Cat Ownner catalog
+    </h1>
+
+    <div id="formdiv3">
+        <label>Cat Owner Name</label>
+        <input type="text" id="cat_Owner" />
+        <label>Cat Owner Age(20-99)</label>
+        <input type="text" id="cat_Owner_Age" />
+        <button type="button" onclick="create3()">Add Owner</button>
+    </div>
+
+    <div id="updateformdiv3">
+        <label>Cat Owner Name</label>
+        <input type="text" id="updated_owner" />
+        <label>Cat Sitter Age(20-99)</label>
+        <input type="text" id="cat_Owner_Ageu" />
+        <button type="button" onclick="update3()">Update Owner</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+
+                <th>Cat Owner Name</th>
+
+                <th>Owner Age</th>
+
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="resultarea3">
+        </tbody>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
